@@ -1,6 +1,6 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://skylarliang.com"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Personal Website with Hugo"
 theme: hugo-profile
 
 outputs:
@@ -29,34 +29,12 @@ Menus:
       title: Blog posts
       url: https://medium.com/@skliang200
       weight: 1
-    # - identifier: gallery
-    #   name: Gallery
-    #   title: Blog posts
-    #   url: https://www.instagram.com/skliang404/
-    #   weight: 2
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
 
 params:
   title: ""
   description: Skylar Liang's personal website
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/icon.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
