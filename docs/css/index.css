@@ -73,7 +73,7 @@ header .navbar.animate {
 
 #hero {
     min-height: 100vh;
-    line-height: 2rem;
+    line-height: 4rem;
     max-width: 100%;
 }
 #hero .content.animate {
@@ -98,7 +98,7 @@ header .navbar.animate {
 }
 
 #hero h3 {
-    /* font-size: clamp(30px, 6vw, 50px); */
+    font-size: clamp(30px, 6vw, 40px);
     /* color: var(--primary-color) !important; */
     opacity: 0.5;
 }
@@ -213,7 +213,7 @@ header .navbar.animate {
 }
 
 #about ul {
-    display: list-item;
+    display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
     gap: 0px 10px;
     padding: 0px;
@@ -239,7 +239,6 @@ header .navbar.animate {
     font-weight: 500;
     opacity: 0.9 !important;
     line-height: 1.7rem !important;
-    font-size: large;
 }
 
 #about a {
